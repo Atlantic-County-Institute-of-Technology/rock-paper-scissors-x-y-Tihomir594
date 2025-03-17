@@ -1,0 +1,62 @@
+body{
+    background-color: antiquewhite;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paper {
+    position: absolute;
+    border-radius: 50%;
+    height: 100px;
+    width:100px;
+    background-image:linear-gradient(red,cyan);
+    z-index:1;
+    left:800px;
+    bottom:600px;
+}
+.rock {
+    position: absolute;
+    border-radius: 50%;
+    height: 100px;
+    width:100px;
+    background-image:linear-gradient(red,orange);
+    z-index:1;
+    left:920px;
+    bottom:600px;
+}
+.scissors {
+    position: absolute;
+    border-radius: 50%;
+    height: 100px;
+    width:100px;
+    background-image:linear-gradient(red,blue);
+    z-index:1;
+    left:1040px;
+    bottom:600px;
+}
+.x {
+    position: absolute;
+    border-radius: 50%;
+    height: 100px;
+    width:100px;
+    background-image:linear-gradient(red,pink);
+    z-index:3;
+    left:130px;
+    bottom:0px;
+}
+.y {
+    position: absolute;
+    border-radius: 50%;
+    height: 100px;
+    width:100px;
+    background-image:linear-gradient(red,yellow);
+    z-index:3;
+    left:130px;
+    bottom:0px;
+}
+.container-for-tools {
+    position: absolute;
+    left:-90px;
+    bottom: 00px;
+}
