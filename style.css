@@ -12,7 +12,7 @@ body{
     width:100px;
     background-image:linear-gradient(red,cyan);
     z-index:1;
-    left:800px;
+    left:815px;
     bottom:600px;
 }
 .rock {
@@ -32,7 +32,7 @@ body{
     width:100px;
     background-image:linear-gradient(red,blue);
     z-index:1;
-    left:1040px;
+    left:1025px;
     bottom:600px;
 }
 .x {
@@ -42,8 +42,8 @@ body{
     width:100px;
     background-image:linear-gradient(red,pink);
     z-index:3;
-    left:130px;
-    bottom:0px;
+    left: 1130px;
+    bottom:600px;
 }
 .y {
     position: absolute;
@@ -52,11 +52,43 @@ body{
     width:100px;
     background-image:linear-gradient(red,yellow);
     z-index:3;
-    left:130px;
-    bottom:0px;
+    left:105px;
+    bottom:00px;
 }
 .container-for-tools {
     position: absolute;
     left:-90px;
     bottom: 00px;
+    z-index:2;
+}
+.clear {
+    position: absolute;
+    height:90px;
+    width:250px;
+    background-color: aqua;
+    left:-310px;
+    bottom:-95px;
+}
+.clear_text {
+    bottom:-79px;
+    left:-240px;
+    position: absolute;
+}
+.reset {
+    position: absolute;
+    height:90px;
+    width:250px;
+    background-color: aqua;
+    left:-50px;
+    bottom:-95px;
+}
+.reset_text {
+    position:absolute;
+    bottom:-79px;
+    right: -30px;
+}
+.rock_emoji {
+    position: absolute;
+    left: -295px;
+    bottom: 23px;
 }
