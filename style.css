@@ -92,3 +92,52 @@ body{
     left: -295px;
     bottom: 23px;
 }
+.scissor_emoji {
+    position: absolute;
+    left: -83px;
+    bottom: 19px;
+}
+.paper_emoji {
+    position: absolute;
+    left: -198px;
+    bottom: 8px;
+}
+.huge_container {
+    position: absolute;
+    bottom: -150px;
+    left: 0px;
+}
+.score_human_text {
+    position: absolute;
+    left: 900px;
+    bottom: 850px;
+}
+.number_of_human_wins {
+    position: absolute;
+    left:920px;
+    bottom: 770px;
+}
+.score_computer_text {
+    position: absolute;
+    left: 1150px;
+    bottom: 850px;
+}
+.number_of_computer_wins {
+    position: absolute;
+    left: 1210px;
+    bottom: 770px;
+}
+.x_text {
+    position: absolute;
+    left: 1175px;
+    bottom: 605px;
+    z-index: 3;
+    font-size: 20px;
+}
+.y_text {
+    position: absolute;
+    left: 1275px;
+    bottom: 605px;
+    z-index: 3;
+    font-size: 20px;
+}
