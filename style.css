@@ -110,22 +110,22 @@ body{
 .score_human_text {
     position: absolute;
     left: 900px;
-    bottom: 850px;
+    bottom: 900px;
 }
 .number_of_human_wins {
     position: absolute;
     left:920px;
-    bottom: 770px;
+    bottom: 820px;
 }
 .score_computer_text {
     position: absolute;
     left: 1150px;
-    bottom: 850px;
+    bottom: 900px;
 }
 .number_of_computer_wins {
     position: absolute;
     left: 1210px;
-    bottom: 770px;
+    bottom: 820px;
 }
 .x_text {
     position: absolute;
