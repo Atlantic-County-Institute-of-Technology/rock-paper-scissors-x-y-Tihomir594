@@ -127,17 +127,15 @@ body{
     left: 1210px;
     bottom: 820px;
 }
-.x_text {
+.water_bottle {
     position: absolute;
-    left: 1175px;
-    bottom: 605px;
-    z-index: 3;
-    font-size: 20px;
+    left: 1142px;
+    bottom: 610px;
+    z-index: 4;
 }
-.y_text {
+.pencil_emoji {
     position: absolute;
-    left: 1275px;
-    bottom: 605px;
-    z-index: 3;
-    font-size: 20px;
+    left:1256px ;
+    bottom: 610px;
+    z-index: 4;
 }

@@ -1,7 +1,12 @@
 const rock = document.getElementById("rock");
-let rock = 1;
-let paper = 2;
-if (player) = 3;
-if cpu chose 2 or cpu chose 4 "Player wins!"
-else if cpu chose chose 3 "Tie"
-else "Player loses."
+const paper = document.getElementById("paper");
+const scissors = document.getElementById("scissors");
+const player = document.getElementById("human");
+const computer = document.getElementById("computer");
+rock.addEventListener("click",place_holder);
+clicks++;
+function place_holder() {
+    if ("player" = rock && "computer" = paper;)
+}
+
+
