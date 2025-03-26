@@ -7,26 +7,26 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="huge_container">
+    <!--This container moves all buttons. !--><div class="huge_container"> 
 <div class="container-for-tools">
-    <div class="paper" id="paper"></div>
+   <!--These 5 divs are buttons.!--> <div class="paper" id="paper"></div>
     <div class="rock" id="rock"> </div>
     <div class="scissors" id="scissors"></div>
     <div class="x"> <div id="x"></div>
     <div class="y"> <div id="y"></div>
 </div>
    
-
+<!--These are names for player and computer!-->
 <div class="human" id="human"></div>
 <div class="computer" id="computer"></div>
    
-   
+   <!--Text for the buttons that reset game and buttons themselves.-->
         <div class="reset" id="reset"></div>
     <div class="clear" id="clear"></div>
     <div class="clear_text" id="clear_text"> <h2>Clear Score</h2></div>
     <div class="reset_text" id="reset_text"> <h2>New Game</h2></div>
 
-
+<!--Start of images for the buttons user can choose in the game.-->
     <div class="rock_emoji" id="rock_emoji">
   <img src="assets\rock.png" height="50px">
 </div>
@@ -36,17 +36,21 @@
 <div class="paper_emoji" id="paper_emoji">
     <img src="assets\scroll.png" height="75px">
 </div>
+<!--End of images for the buttons user can choose in the game.-->
 </div>
+<!--Score numbers and text for the persons score-->
 <div class="score_human_text" id="score_human_text"><h1>You</h1></div>
 <div class="number_of_human_wins" id="number_of_human_wins"><h1>0</h1></div>
 <div class="score_computer_text"><h1>Computer</h1></div>
 <div class="number_of_computer_wins" id="number_of_computer_wins"><h1>0</h1></div>
+<!--More images for buttons user and computer can choose.-->
 <div class="water_bottle">
     <img src="assets\7267082.png" height="75px">
 </div>
 <div class="pencil_emoji">
     <img src="assets\pencil-emoji-emoji-256x256-6pljxt5n.png" height="65px">
 </div>
+<!--End of images for buttons user can choose from.-->
 <div class="text" id="text">Scissors beats paper!</div>
 </body>
 <script src="script.js"></script>

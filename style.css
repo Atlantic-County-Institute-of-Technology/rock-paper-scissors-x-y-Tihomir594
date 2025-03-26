@@ -1,10 +1,11 @@
+/*sets background color */
 body{
     background-color: antiquewhite;
     display:flex;
     flex-direction: column;
     align-items: center;
 }
-
+/*Sets position of paper button makes it a circle,size,and color. */
 .paper {
     position: absolute;
     border-radius: 50%;
@@ -15,6 +16,7 @@ body{
     left:815px;
     bottom:600px;
 }
+/*Sets position of rock button makes it a circle,size,and color.*/
 .rock {
     position: absolute;
     border-radius: 50%;
@@ -25,6 +27,7 @@ body{
     left:920px;
     bottom:600px;
 }
+/*Sets position of scissors button makes it a circle,size,and color.*/
 .scissors {
     position: absolute;
     border-radius: 50%;
@@ -35,6 +38,7 @@ body{
     left:1025px;
     bottom:600px;
 }
+/*Sets position of x button makes it a circle,size,and color.*/
 .x {
     position: absolute;
     border-radius: 50%;
@@ -45,6 +49,7 @@ body{
     left: 1130px;
     bottom:600px;
 }
+/*Sets position of y button makes it a circle,size,and color.*/
 .y {
     position: absolute;
     border-radius: 50%;
@@ -55,12 +60,14 @@ body{
     left:105px;
     bottom:00px;
 }
+/*Sets position for all buttons located in this container.*/
 .container-for-tools {
     position: absolute;
     left:-90px;
     bottom: 00px;
     z-index:2;
 }
+/*Sets position of clear button makes its size,and color.*/
 .clear {
     position: absolute;
     height:90px;
@@ -69,11 +76,13 @@ body{
     left:-310px;
     bottom:-95px;
 }
+/*Positions text*/
 .clear_text {
     bottom:-79px;
     left:-240px;
     position: absolute;
 }
+/*Sets position of reset button makes its size,and color.*/
 .reset {
     position: absolute;
     height:90px;
@@ -82,57 +91,68 @@ body{
     left:-50px;
     bottom:-95px;
 }
+/*Sets position of text*/
 .reset_text {
     position:absolute;
     bottom:-79px;
     right: -30px;
 }
+/*Sets position of image*/
 .rock_emoji {
     position: absolute;
     left: -295px;
     bottom: 23px;
 }
+/*Sets position of image*/
 .scissor_emoji {
     position: absolute;
     left: -83px;
     bottom: 19px;
 }
+/*Sets position of image*/
 .paper_emoji {
     position: absolute;
     left: -198px;
     bottom: 8px;
 }
+/*All buttons in this container got their position moved.*/
 .huge_container {
     position: absolute;
     bottom: -150px;
     left: 0px;
 }
+/*Sets position of text*/
 .score_human_text {
     position: absolute;
     left: 900px;
     bottom: 900px;
 }
+/*Sets position of text*/
 .number_of_human_wins {
     position: absolute;
     left:920px;
     bottom: 820px;
 }
+/*Sets position of text*/
 .score_computer_text {
     position: absolute;
     left: 1150px;
     bottom: 900px;
 }
+/*Sets position of text*/
 .number_of_computer_wins {
     position: absolute;
     left: 1210px;
     bottom: 820px;
 }
+/*Sets position of image*/
 .water_bottle {
     position: absolute;
     left: 1142px;
     bottom: 610px;
     z-index: 4;
 }
+/*Sets position of image*/
 .pencil_emoji {
     position: absolute;
     left:1256px ;
