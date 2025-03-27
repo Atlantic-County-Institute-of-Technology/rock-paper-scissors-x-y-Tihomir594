@@ -8,7 +8,7 @@ rock.addEventListener("click",place_holder);
 clicks++;
 function place_holder() {
     if (player === "scissors" && computer === "paper");
-    text.innerHTML = "Scissors loses to paper!";
+    return ("Scissors beats paper!");
 }
 
 
