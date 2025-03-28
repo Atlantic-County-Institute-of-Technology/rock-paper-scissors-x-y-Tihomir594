@@ -4,11 +4,6 @@ const scissors = document.getElementById("scissors");
 const player = document.getElementById("human");
 const computer = document.getElementById("computer");
 const text = document.getElementById("text");
-rock.addEventListener("click",place_holder);
-clicks++;
-function place_holder() {
-    if (player === "scissors" && computer === "paper");
-    return ("Scissors beats paper!");
-}
+
 
 
